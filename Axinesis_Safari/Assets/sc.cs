@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class On_Move : MonoBehaviour {
+public class sc : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
