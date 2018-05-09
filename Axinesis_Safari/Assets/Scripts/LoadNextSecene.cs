@@ -18,7 +18,7 @@ public class LoadNextSecene : MonoBehaviour
 	
     private void LoadNextScene()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Main");
     }
     #endregion
 
