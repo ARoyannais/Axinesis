@@ -259,18 +259,6 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="Communication">
-      <HintPath>Assets/Resources/Plugins/Communication.dll</HintPath>
-    </Reference>
-    <Reference Include="Curve">
-      <HintPath>Assets/Resources/Plugins/Curve.dll</HintPath>
-    </Reference>
-    <Reference Include="Game">
-      <HintPath>Assets/Resources/Plugins/Game.dll</HintPath>
-    </Reference>
-    <Reference Include="Language">
-      <HintPath>Assets/Resources/Plugins/Language.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/Users/MediaMonster/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
@@ -292,6 +280,18 @@
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/MediaMonster/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
+    <Reference Include="Language">
+      <HintPath>Assets/Plugins/Language.dll</HintPath>
+    </Reference>
+    <Reference Include="Game">
+      <HintPath>Assets/Plugins/Game.dll</HintPath>
+    </Reference>
+    <Reference Include="Curve">
+      <HintPath>Assets/Plugins/Curve.dll</HintPath>
+    </Reference>
+    <Reference Include="Communication">
+      <HintPath>Assets/Plugins/Communication.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Checkpoint.cs" />
@@ -307,10 +307,10 @@
     <Compile Include="Assets\test.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Resources\Plugins\Communication.XML" />
-    <None Include="Assets\Resources\Plugins\Curve.XML" />
-    <None Include="Assets\Resources\Plugins\Game.XML" />
-    <None Include="Assets\Resources\Plugins\Language.XML" />
+    <None Include="Assets\Plugins\Communication.XML" />
+    <None Include="Assets\Plugins\Curve.XML" />
+    <None Include="Assets\Plugins\Game.XML" />
+    <None Include="Assets\Plugins\Language.XML" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
